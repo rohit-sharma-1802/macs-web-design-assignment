@@ -1,0 +1,657 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body,
+html {
+	font-family: Roboto, sans-serif, arial;
+	background: #f0f3fa
+}
+
+.margin-top-80 {
+	margin-top: 80px;
+}
+
+.width-100 {
+	width: 100%;
+	float: left;
+}
+
+.width-20 {
+	width: 20%;
+	float: left;
+}
+
+.width-25 {
+	width: 25%;
+	float: left;
+}
+
+.width-30 {
+	width: 30%;
+	float: left;
+}
+
+.width-33 {
+	width: 33%;
+	float: left;
+}
+
+.width-40 {
+	width: 40%;
+	float: left;
+}
+
+.width-50 {
+	width: 50%;
+	float: left;
+}
+
+.width-60 {
+	width: 60%;
+	float: left;
+}
+
+.width-70 {
+	width: 70%;
+	float: left;
+}
+
+.width-80 {
+	width: 80%;
+	float: left;
+}
+
+.width-90 {
+	width: 90%;
+	float: left;
+}
+
+.width-10 {
+	width: 10%;
+	float: left;
+}
+
+.container {
+	width: 1500px;
+	margin: 0 auto;
+}
+
+.plr {
+	padding-left: 100px;
+	padding-right: 100px;
+}
+
+.margin-top-50 {
+	margin-top: 50px;
+}
+
+
+.top-header {
+	background: #10151c;
+	padding: 5px 0px;
+	border-bottom: 1px solid #3131315e;
+}
+
+.news-list {
+	color: red;
+	padding: 6px;
+	font-size: 18px;
+}
+
+
+.headquote {
+	font-size: 18px;
+	color: #ffffff;
+	width: 80%;
+}
+
+.header-menu {
+	position: relative;
+	background: #10151c;
+	box-shadow: 0px 2px 5px 0px #00000036;
+	padding-block: 15px;
+}
+
+.logo {
+	width: fit-content;
+	float: left;
+}
+
+.main-menu {
+	list-style: none;
+	float: right;
+	margin-top: 20px;
+}
+
+.main-menu a {
+	font-weight: 500;
+	color: #fefefe;
+	font-size: 18px;
+	text-decoration: none;
+}
+
+.main-menu li {
+	float: left;
+	padding: 12px 15px;
+}
+
+.slider-width {
+	width: 40%;
+	height: 70vh;
+}
+
+.latest-news {
+	margin-left: 10px;
+	margin-right: 10px;
+	background: #fff;
+	padding: 20px;
+	height: 350px;
+	margin-bottom: 30px;
+	overflow: hidden;
+
+
+}
+
+.event-list {
+	margin-left: 10px;
+	margin-right: 10px;
+	background: #fff;
+	padding: 20px;
+	height: 350px;
+	margin-bottom: 30px;
+
+
+}
+
+.notice-board {
+	margin-left: 10px;
+	margin-right: 10px;
+	background: #fff;
+	padding: 20px;
+	height: 350px;
+	margin-bottom: 30px;
+
+
+}
+
+.our-principal {
+	margin-left: 10px;
+	margin-right: 10px;
+	background: #fff;
+	padding: 20px;
+	height: 350px;
+	margin-bottom: 30px;
+
+
+}
+
+.about-us {
+	margin-left: 10px;
+	margin-right: 10px;
+	background: #fff;
+	padding: 20px;
+	height: 350px;
+	margin-bottom: 30px;
+
+
+}
+
+.certificate {
+	margin-left: 10px;
+	margin-right: 10px;
+	background: #fff;
+	padding: 20px;
+	height: 350px;
+	margin-bottom: 30px;
+
+
+}
+
+.heading-sect {
+	width: 100%;
+	float: left;
+	border-bottom: 1px solid #cfcfcf;
+	padding-bottom: 0px;
+	margin: 0px;
+	margin-bottom: 15px;
+	padding-top: 2px;
+	border: 1px solid #cfcfcf;
+	padding-bottom: 10px;
+	padding-top: 15px;
+	padding-left: 15px;
+	background: #10151c;
+	color: white;
+}
+
+.heading-sect h3 {
+	color: white;
+}
+
+.head-title {
+	margin: 0px;
+	padding: 0px;
+	font-size: 16px;
+	font-weight: 600;
+	font-family: 'Roboto', sans-serif !important;
+	color: #2196f3;
+	padding-bottom: 5px;
+}
+
+.upcoming-event-list li {
+	width: 100%;
+	float: left;
+	margin-bottom: 15px;
+}
+
+.upcoming-event-list {
+	padding: 0px;
+	list-style: none;
+}
+
+.event-date {
+	background: #10151c;
+	width: 30px;
+	float: left;
+	text-align: center;
+	font-size: 14px;
+	color: #fff;
+	padding: 8px;
+	margin-right: 10px;
+}
+
+
+.notice-board-list li {
+	width: 100%;
+	float: left;
+	margin-bottom: 15px;
+}
+
+.notice-board-list {
+	padding: 0px;
+	list-style: none;
+}
+
+.latest-news-ul {
+	padding: 0px;
+	list-style: none;
+	line-height: 40px;
+}
+
+
+.useful-info-ul {
+	list-style: none;
+}
+
+.useful-info-ul a {
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+}
+
+.useful-info-ul li {
+	margin-bottom: 15px;
+	border-bottom: 1px solid #d7d7d7;
+	padding-bottom: 15px;
+}
+
+.principal-image {
+	text-align: center
+}
+
+.principal-image img {
+	height: 230px;
+}
+
+.principal-para {
+	font-weight: bold;
+}
+
+
+.gallery-img {
+	height: 250px;
+	width: 100%;
+}
+
+.governor-section {}
+
+.governor-img {
+	width: 100%;
+}
+
+.governor-name {
+	font-size: 16px;
+	color: black;
+	font-weight: bold;
+	padding-left: 10px;
+	margin-top: 20px;
+}
+
+.governor-designation {
+	font-size: 15px;
+	color: black;
+	padding-left: 10px;
+	margin-top: 6px;
+}
+
+.gove-sec-style {
+	margin-bottom: 30px;
+	border-bottom: 1px solid #d7d7d7;
+	padding-bottom: 30px;
+}
+
+.gallery-head-style {
+	font-size: 28px;
+	color: #4b4848;
+	margin-bottom: 5px;
+	border: 1px solid #cfcfcf;
+	padding-bottom: 10px;
+	padding-top: 15px;
+	padding-left: 15px;
+	border: none;
+	padding: 2px 0px;
+}
+
+
+.recruiter-head-style {
+	font-size: 28px;
+	color: #4b4848;
+	margin-bottom: 5px;
+}
+
+.recruiter-marquee {
+	height: 100px;
+}
+
+.recruiter-marquee img {
+	height: 80px;
+	width: 140px;
+}
+
+.footer {
+	background: #10151c;
+	padding: 50px 0px;
+}
+
+.quicklink-menu {
+	list-style: none;
+	padding-left: 10px;
+}
+
+.quicklink-menu li a {
+	color: #fff;
+	line-height: 2.5;
+	font-size: 15px;
+	text-decoration: none;
+}
+
+.social-media {
+	list-style: none;
+	margin-top: 10px;
+}
+
+.social-media li a img {
+	width: 30px;
+}
+
+.social-media li {
+	float: left;
+	padding: 0px 8px;
+}
+
+.quicklink-heading {
+	font-size: 18px;
+	font-weight: bold;
+	color: #fff;
+	margin-bottom: 10px;
+}
+
+.get-in-touch {
+	list-style: none;
+	padding-left: 10px;
+}
+
+.get-in-touch li i {
+	color: #ed372c;
+	font-size: 20px;
+}
+
+.get-in-touch li {
+	color: #fff;
+	line-height: 2.5;
+	font-size: 15px;
+	text-decoration: none;
+}
+
+.footer-e-mail {
+	font-size: 15px;
+	font-weight: bold;
+	color: #fff;
+	text-decoration: none;
+}
+
+.footer-website {
+	font-size: 12px;
+	font-weight: bold;
+	color: #fff;
+	text-decoration: none;
+}
+
+.footer2-bacbor {
+	background: #232F3E;
+	padding: 10px 0px;
+	border-top: 1px solid #898989;
+}
+
+.footer2-content {
+	font-size: 14px;
+	color: #fff;
+	text-align: center;
+}
+
+.about-us-image {
+	overflow: hidden;
+}
+
+.about-us-image img {
+	width: 100%;
+	height: auto;
+}
+
+.about-us-text {
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.about-us-text p,
+ol li {
+	line-height: 1.7em;
+	text-align: justify;
+}
+
+.about-us-text ol {
+	padding-left: 20px;
+}
+
+.faculty-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.faculty-section {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+
+}
+
+.faculty-member img {
+	width: 100%;
+}
+
+.faculty-member {
+	margin-bottom: 20px;
+	display: flex;
+	flex-direction: column;
+}
+
+.faculty-image {
+	width: 100%;
+	height: auto;
+}
+
+.faculty-details {
+	font-size: 14px;
+	line-height: 1.5em;
+	padding-block: 15px;
+}
+
+.faculty-member img {
+	width: 100%;
+	max-height: 64%;
+	border: 2px solid #797878;
+}
+
+
+.courses-container {
+	display: flex;
+	flex-direction: column;
+}
+
+.faculty-details {}
+
+.course-card {
+	width: 48%;
+	margin-bottom: 20px;
+}
+
+.course-image {
+	width: 100%;
+	height: auto;
+}
+
+.course-details {
+	text-align: center;
+}
+
+.contact-info {
+	margin-bottom: 20px;
+}
+
+.course-section-container {
+	display: flex;
+	justify-content: space-between;
+}
+
+.section-title {
+	color: #333;
+	font-size: 28px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.sub-title {
+	color: #555;
+	font-size: 18px;
+	font-weight: bold;
+	margin-top: 15px;
+}
+
+
+.card {
+	border: 1px solid #ccc;
+	border-radius: 8px;
+	overflow: hidden;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.marquee {
+	white-space: nowrap;
+	overflow: hidden;
+	box-sizing: border-box;
+	animation: marquee 15s linear infinite;
+}
+
+
+
+.placement-table {
+	width: 100%;
+	border-collapse: collapse;
+	margin-top: 20px;
+}
+
+.placement-table th,
+.placement-table td {
+	border: 1px solid #ddd;
+	padding: 12px;
+	text-align: center;
+}
+
+.placement-table th {
+	background-color: #f2f2f2;
+	font-weight: bold;
+}
+
+.placement-table tbody tr:nth-child(even) {
+	background-color: #f9f9f9;
+}
+
+.placement-table tbody tr:hover {
+	background-color: #f0f0f0;
+}
+
+
+.course-card {
+	height: 100px;
+	width: 200px;
+	border: #363535;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.course-card .course-name {
+	font-size: 30px;
+	color: #010000;
+}
+
+
+
+.course-card-box {
+	margin: 10px auto;
+	width: 300px;
+	border: 2px solid #000;
+
+}
+
+.course-card-img img {
+	width: 100%;
+	max-height: 210px;
+
+}
+
+.course-card-title h5 {
+	font-size: 20px;
+	padding: 5px 15px;
+}
+
+
+.course-card-body p {
+	padding: 5px 15px;
+	font-size: 16px;
+	color: #212121;
+	line-height: 1.7em;
+	text-align: justify;
+}
+
+.gallery-margin {
+	width: 24%;
+	margin-inline: 5px;
+	margin-block: 5px;
+	float: left;
+}
